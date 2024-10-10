@@ -1,0 +1,9 @@
+[user]
+    name = huybang2017
+    email = ndhbang2017@gmail.com
+
+[core]
+    sshCommand = "ssh -i ~/.ssh/id_ed25519"  # Specify your private SSH key if needed
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
