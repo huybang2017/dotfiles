@@ -41,3 +41,11 @@ set -x GTK_THEME Adwaita:dark
 # source "$HOME/.cargo/env.fish"
 
 [ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
+
+# pnpm
+set -gx PNPM_HOME "/home/huy/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
+end
+source "$HOME/.cargo/env.fish"
+# pnpm end
