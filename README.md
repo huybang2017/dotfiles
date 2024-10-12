@@ -10,7 +10,7 @@ To use the scripts in this repository, please follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone git@github.com:tnowad/dotfiles.git ~/dotfiles
+   git clone git@github.com:huybang2017/dotfiles.git ~/dotfiles
    ```
 
 1. Navigate into the repository directory:
@@ -31,7 +31,7 @@ Please ensure that the following dependencies are installed on your system:
 
 - `bash`: The scripts are written in Bash, so ensure that Bash is installed
   on your system.
-- `git`: The setup script clones repositories from GitHub, so Git must be installed.
+- `git`: The setup script clones repositories from GitHub, so Git must be installed and must setup ssh.
 
 If any of the dependencies are missing, please install them before running
 the setup script.
