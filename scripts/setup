@@ -56,6 +56,7 @@ pacman_packages=(
   "feh"
   "firefox"
   "xrandr"
+  "redshift"
 )
 
 aur_packages=(
